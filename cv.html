@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cv</title>
+  </head>
+  <style>
+    body {
+      background-color: #d5d5d5;
+      font-family: system-ui;
+    }
+    .container {
+      background-color: #e9e7ea;
+      width: 1000px;
+      max-width: 100%;
+      margin: auto;
+      padding: 50px;
+      box-shadow: 0 10px 50px #858585;
+      display: grid;
+      grid-template-columns: 35% 60%;
+      column-gap: 5%;
+      row-gap: 30px;
+    }
+    .avatar img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .avatar {
+      display: flex;
+      justify-content: center;
+    }
+    .name {
+      padding-left: 30px;
+      border-left: 1px solid #000;
+    }
+    .name h1 {
+      font-weight: 300;
+      font-size: xxx-large;
+      margin: 0 0 5px;
+    }
+    .name .spe {
+      margin: 0;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+    .name .contact {
+      padding: 0;
+      list-style: none;
+    }
+    .name .contact span {
+      display: inline-block;
+      background-color: #000;
+      color: #fff;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      text-align: center;
+      font-size: small;
+      margin-right: 20px;
+    }
+    .name .contact li {
+      padding: 5px 0;
+      transform: translate(-40px);
+      background-color: #e9e7ea;
+    }
+    .info ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+      line-height: 30px;
+    }
+    .intro {
+      padding-left: 30px;
+      border-left: 1px solid #000;
+      text-align: justify;
+    }
+    h2 {
+      padding: 0;
+      margin: 0 0 20px;
+    }
+    .exp {
+      text-align: right;
+    }
+    .exp h4 {
+      margin: 20px 0 10px;
+    }
+    .skills {
+      margin-top: 50px;
+    }
+    .exp ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      line-height: 35px;
+    }
+    .project {
+      padding-left: 30px;
+      text-align: justify;
+      border-left: 1px solid #000;
+    }
+    .project .web {
+      color: green;
+      padding: 10px 0;
+    }
+    .project .location {
+      font-weight: 500;
+      padding: 10px 0;
+    }
+    .project .item {
+      position: relative;
+    }
+    .project .item::before {
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      background-color: #000;
+      content: "";
+      border-radius: 50%;
+      left: -37px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="avatar">
+        <img src="PicsArt_07-22-04.20.39-removebg-preview.png" alt="" />
+      </div>
+      <div class="name">
+        <h1>AmanuelM.</h1>
+        <div class="spe">Front-end Developer</div>
+        <ul class="contact">
+          <li><span>P</span>+251-912-345-6789</li>
+          <li><span>E</span>Email@sth.com</li>
+          <li><span>W</span>AmanuelM.com</li>
+        </ul>
+      </div>
+      <div class="info">
+        <ul>
+          <li>From <b>Mekelle</b>-Ethiopia</li>
+          <li>01/01/2000</li>
+          <li>AAA University</li>
+        </ul>
+      </div>
+      <div class="intro">
+        <h2>INTRO</h2>
+        Hi, I’m AmanuelM., a passionate Frontend Developer who loves turning
+        creative ideas into modern, responsive, and user-friendly web
+        experiences. I specialize in HTML, CSS, JavaScript, and frontend
+        frameworks to build clean, interactive designs that not only look good
+        but also perform smoothly.I enjoy solving design challenges, creating
+        smooth animations, and making sure every detail fits perfectly across
+        devices. My goal is to deliver websites that connect with people and
+        bring ideas to life on the web. 🚀
+      </div>
+      <div class="exp">
+        <h2>EXPERIENCE</h2>
+        <div class="item">
+          <h4>Front-end Developer</h4>
+          <div class="time">
+            <span>2020 - 2022</span>
+            <span>ABCD Company</span>
+          </div>
+          <div class="des">
+            Developed and maintained responsive websites using HTML, CSS,
+            JavaScript, and modern frontend frameworks. Collaborated with
+            designers and backend developers to build seamless user experiences.
+            Optimized web applications for speed, accessibility, and
+            cross-browser compatibility. Implemented interactive UI components
+            and animations to enhance usability.
+          </div>
+        </div>
+
+        <div class="item">
+          <h4>Student</h4>
+          <div class="time">
+            <span>2015 - 2020</span>
+            <span>AAA university</span>
+          </div>
+          <div class="des">
+            Studied core concepts of Computer Science & Web Development. Gained
+            strong foundations in programming, design, and problem-solving.
+            Worked on academic projects focusing on frontend development and
+            UI/UX design.
+          </div>
+        </div>
+        <h2 class="skills">skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+          <li>React</li>
+          <li>Git</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h2>PROJECT</h2>
+        <div class="item">
+          <h4>Website shopping shirt</h4>
+          <div class="item">2020</div>
+          <div class="web">www.sth.com</div>
+          <div class="location">Ethiopia</div>
+          <div class="des">
+            In 2020, I developed the Ethiopia Shopping Website – an online
+            platform for purchasing shirts, available at www.sth.com . The
+            project focused on creating a clean and modern shopping experience
+            with responsive design, easy navigation, and smooth checkout
+            functionality.This project was built using HTML, CSS, and
+            JavaScript, showcasing my skills in frontend development and
+            e-commerce design
+            <ul>
+              <li>
+                Built an e-commerce website for shirt shopping with a clean and
+                modern UI.
+              </li>
+              <li>
+                Implemented product listings, shopping cart features, and
+                responsive design.
+              </li>
+              <li>
+                Focused on user-friendly navigation and smooth checkout flow.
+              </li>
+              <li>Technologies used: HTML, CSS, JavaScript.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <h4>E-commerce</h4>
+          <div class="item">2020</div>
+          <div class="web">www.sth.com</div>
+          <div class="location">online</div>
+          <div class="des">
+            In 2020, I created an E-commerce website available at www.sth.com ,
+            designed for online shopping. The platform provided a simple and
+            engaging way for users to browse and purchase products, with a focus
+            on responsive layouts and smooth navigation. I developed the site
+            using HTML, CSS, and JavaScript, ensuring it worked seamlessly
+            across devices while offering a modern and user-friendly online
+            shopping experience.
+            <ul>
+              <li>
+                Built an online shopping platform for browsing and purchasing
+                products.
+              </li>
+              <li>
+                Implemented product listings and basic cart functionality.
+              </li>
+              <li>Developed using HTML, CSS, and JavaScript.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <h4>Real Estate site</h4>
+          <div class="item">2020</div>
+          <div class="web">www.sth.com</div>
+          <div class="location">Tigray</div>
+          <div class="des">
+            In 2022, I developed a Real Estate website for Tigray, designed to
+            showcase properties in a modern and user-friendly way. The site
+            included features such as property listings, search, and filtering
+            to help users easily find the right home or land.
+            <ul>
+              <li>
+                Developed a real estate platform showcasing properties with
+                modern design and clear layouts.
+              </li>
+              <li>
+                Ensured responsive design so the site works seamlessly on
+                desktop and mobile.
+              </li>
+              <li>
+                Implemented property listings, search, and filtering features
+                for better user experience.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
